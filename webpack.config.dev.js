@@ -13,7 +13,8 @@ module.exports = {
     assetModuleFilename: 'assets/images/[hash][ext][query]'
   },
 	mode: 'development',
-  //watch: true, //Deja la consola escuchando cambios para compilarlos al hacer el cambio
+  devtool: 'source-map',
+  watch: true, //Deja la consola escuchando cambios para compilarlos al hacer el cambio
   resolve: {
     extensions: ['.js'],
     alias: {
